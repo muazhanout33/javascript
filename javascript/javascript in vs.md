@@ -5,10 +5,11 @@ HTML is the main page, JavaScript must be linked to it.
 Initially, you can write JS inside <script> tags in HTML (inline).
 
 Example code from the lesson:
-
+ ```js
 <script>
   alert("JavaScript is fun");
 </script>
+```
 
 
 This is quick for testing, but not practical for real development.
@@ -22,9 +23,9 @@ Alert box: alert("...")
 Console: console.log(...)
 
 Example:
-
+```js
 console.log(40 + 8 + 23 - 10);
-
+```
 
 To open the browser console: F12 or right-click → Inspect → Console.
 
@@ -44,8 +45,6 @@ Link it in HTML:
 
 
 Place it at the end of the <body> tag.
-
-If nothing shows up → check:
 
 File name is correct.
 
